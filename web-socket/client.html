@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WS client</title>
+</head>
+<body>
+    <script>
+        let ws = new WebSocket("ws://localhost:8080");
+        //wire the response
+        ws.onmessage = message => console.log(`Messages from Server : ${message.data}`);
+    </script>
+</body>
+</html>

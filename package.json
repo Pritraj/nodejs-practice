@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Error: no test specified",
+    "websocket": "node web-socket/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pritraj/nodejs-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pritraj/nodejs-practice/issues"
+  },
+  "homepage": "https://github.com/Pritraj/nodejs-practice#readme",
+  "dependencies": {
+    "websocket": "^1.0.32"
+  },
+  "devDependencies": {}
+}
