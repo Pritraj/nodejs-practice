@@ -7,6 +7,15 @@
         {
             "type": "pwa-node",
             "request": "launch",
+            "name": "run socketgame",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\web-socket-game\\index.js"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
             "name": "run websocket",
             "skipFiles": [
                 "<node_internals>/**"

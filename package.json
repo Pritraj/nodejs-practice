@@ -1,11 +1,12 @@
 {
   "name": "nodejs-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "nodejs practice app",
   "main": "index.js",
   "scripts": {
     "test": "echo Error: no test specified",
-    "websocket": "node web-socket/index.js"
+    "websocket": "node web-socket/index.js",
+    "socketgame": "node web-socket-game/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Pritraj/nodejs-practice#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "websocket": "^1.0.32"
   },
   "devDependencies": {}
